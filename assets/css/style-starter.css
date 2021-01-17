@@ -61,7 +61,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: rgb(255, 255, 255); }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
@@ -10357,7 +10357,7 @@ button.owl-next {
   -ms-transition: 0.3s ease-in; }
 
 .w3l-main-slider .banner-view {
-  background: url(../images/banner1.jpg) no-repeat center;
+  background: url(../images/shutterstock.jpg) no-repeat center;
   background-size: cover;
   min-height: 700px;
   position: relative;
@@ -10379,9 +10379,8 @@ button.owl-next {
 
 .w3l-main-slider .banner-view:before {
   content: "";
-  background: rgba(7, 10, 12, 0.45);
-  background: rgba(23, 68, 158, 0.6);
-  background: linear-gradient(45deg, #17449e, #00000026);
+  
+  
   position: absolute;
   top: 0;
   min-height: 100%;
