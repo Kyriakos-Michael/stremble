@@ -17,43 +17,91 @@ Author URL: http://w3layouts.com
     <link rel="stylesheet" href="assets/css/style-starter.css">
   </head>
   <body>
-<section class="w3l-bootstrap-header">
-  <nav class="navbar navbar-expand-md navbar-light py-3">
-    <div class="container">
-      <a class="navbar-brand" href="index.html"><img src="assets/images/logo-1.png" class="img-fluid" width="150px"></a>
-     
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-      <a href="#domain" class="domain ml-3" data-toggle="modal" data-target="#DomainModal">
-        <div class="hamburger1">
-          <div></div>
-          <div></div>
-          <div></div>
+    <section class="w3l-bootstrap-header">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/images/web-headline.png" style="width: auto;margin-left: auto;
+              margin-right: auto;" />
+              </a>
+          </div>
         </div>
-      </a>
-    </div>
-  </nav>
-</section>
-
+      
+      </div>
+      <nav class="navbar navbar-expand-md navbar-light py-3">
+        <div class="container">
+          <!-- if logo is image enable this   
+        <a class="navbar-brand" href="#index.html">
+            <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+        </a> -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Research
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="system-biology.html">System Biology</a>
+                  <a class="dropdown-item" href="brain-sciences.html">Brain-sciences</a>
+                  <a class="dropdown-item" href="bioinformatics.html">Bioinformatics</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Projects
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="brain-sciences-learn-more.html">Stress @ Workspace</a>
+                  <a class="dropdown-item" href="linked2safety.html">Linked2Safety</a>
+                  <a class="dropdown-item muted" href="#">The Cyprus Intestinal Health Study</a>
+                  <a class="dropdown-item" href="kids-stress-relief.html">Stremble - Kids stress relief</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="publications.html">Publications</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Services
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="stremble-advance-analytics.html">Stremble Advanced Analytics</a>
+                  <a class="dropdown-item" href="#">Metagenomics-STRAA16s</a>
+                  <a class="dropdown-item" href="rtdi-project-impact-assessment.html">RTDI project Impact Assessment</a>
+                  <a class="dropdown-item" href="research-proposal-management.html">Research proposal Management</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Open Positions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About us</a>
+              </li>
+         
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact us</a>
+              </li>
+            </ul>
+          </div>
+          <!-- <a href="#domain" class="domain ml-3" data-toggle="modal" data-target="#DomainModal">
+            <div class="hamburger1">
+              <div></div>
+              <div></div>
+              
+            </div>
+          </a> -->
+        </div>
+      </nav>
+    </section>
 
 <!-- Domain Modal -->
 <div class="modal right fade" id="DomainModal" tabindex="-1" role="dialog" aria-labelledby="DomainModalLabel2">
@@ -127,20 +175,15 @@ Author URL: http://w3layouts.com
   <!-- //modal-dialog -->
 </div>
 <!-- //Domain modal -->
-<section class="w3l-about-breadcrumb">
-  <div class="breadcrumb-bg breadcrumb-bg-about py-5">
-    <div class="container py-lg-5 py-md-3">
-      <h2>Welcome to Stremble</h2>
-    </div>
-  </div>
-</section>
 
 <!-- w3l-content-photo-5 -->
 <div class="w3l-content-photo-5 py-5">
 	<div class="content-main py-lg-5 py-md-3">
 		<div class="container">
 			<div class="row">
-				<div class="col content-left">
+				<div class="col">
+          <h2 class="text-center">Welcome to Stremble</h2>
+          <br>
 					<p class="mb-0">We are an interdisciplinary team of scientists coming together from Computer Science, Medicine, Statistics and Systems Biology. Our primary aim is to realize innovative solutions to current health related challenges. We are key participants in a number of academic, public and private initiatives offering our expertise and Stremble’s resources to develop the next generation of state-of-the-art technologies with major impact in pharma and health sector.</p>
 				</div>
 			</div>
@@ -151,7 +194,7 @@ Author URL: http://w3layouts.com
 <section class="w3l-counter-6">
     <!-- /counter-6-->
     <div class="conuter-66-info py-5">
-        <div class="container py-lg-5">
+        <div class="container">
             <h3 class="title text-center mb-4">Leadership</h3>
             <div class="counter-grids-info row text-center">
                 <div class="col-lg-3 col-6">
